@@ -3,6 +3,8 @@
 
 // Variables
 @import 'variables';
-
+// font Awesome
+@import "~font-awesome/scss/font-awesome";
 // Bootstrap
-@import '~bulma/bulma';
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'node_modules/bootstrap-vue/src/index.scss';

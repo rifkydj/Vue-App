@@ -4,16 +4,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Laravel</title>
-
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 <body>
-    <div>
-        <h5>Rifky</h5>
-    </div>
-    <script>
-        Vue.component(
-            'example-component',
-            require('./components/ExampleComponent.vue').default
-        );
-    </script>
+<div id="app">
+
+    <nav-component></nav-component>
+    <my-data-component></my-data-component>
+
+</div>
+<script src="{{ asset('js/app.js') }}"></script>
+
 </body>
 </html>
